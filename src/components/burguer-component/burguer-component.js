@@ -1,3 +1,5 @@
+import styles from "./burguer-component.css" with { type: "css" };
+
 class BurguerComponent extends HTMLElement {
     static get observedAttributes() {
         return ["prop1"];
@@ -11,9 +13,9 @@ class BurguerComponent extends HTMLElement {
     }
 
     render() {
+        this.shadowRoot.adoptedStyleSheets.push(styles);
         this.shadowRoot.innerHTML = /* html */ `
             <style>
-                @import "./src/components/burguer-component/burguer-component.css";
                 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css";
             </style>
             <div class="container">
