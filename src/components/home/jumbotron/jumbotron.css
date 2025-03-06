@@ -1,0 +1,35 @@
+.container {
+    background-image: url("/src/img/cover.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: calc(100% - 32px);
+    height: 500px;
+
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border-color: gray;
+    color: #fff;
+}
+
+.text-container {
+    background: rgba(0, 0, 0, 0.5);
+
+    padding: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.img {
+    height: 500px;
+}

@@ -1,7 +1,13 @@
-import "./src/index.js";
+import "/src/components/index.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
-
-    // TODO: initialize javascript components.
-
+  const header = document.querySelector("my-page").shadowRoot.querySelector("custom-header");
+  
+  const menuItems = [
+    { texto: "Inicio", link: "/" },
+    { texto: "Contacta con nosotros", link: "/form/" },
+    { texto: "Conócelos", link: "/about-us/" }
+  ];
+  
+  header.items = menuItems;
 });

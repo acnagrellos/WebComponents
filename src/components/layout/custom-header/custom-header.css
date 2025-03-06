@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  padding: 8px;
+}
+
+container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+a:hover {
+  background: #555;
+  border-radius: 4px;
+}

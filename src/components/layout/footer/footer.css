@@ -1,0 +1,17 @@
+footer {
+    background: #080808;
+    padding: 24px 16px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+}
+
+.icons-container svg:hover {
+    color:#E89A2F;
+}
