@@ -1,4 +1,4 @@
-import "/src/components/index.js";
+import "./src/components/index.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const header = document.querySelector("my-page").shadowRoot.querySelector("custom-header");

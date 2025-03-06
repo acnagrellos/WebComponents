@@ -1,6 +1,6 @@
 # Organización de Web Components
 
-Este proyecto es un ejemplo de como poder organizar los Web Components en un proyecto más grande.
+Este proyecto es una landing para una hamburguesería. La Landing se ha desarrollado usando la tecnología de Web Components en Javascript.
 
 ## Estructura de carpetas
 
@@ -8,19 +8,34 @@ La estructura de carpetas para nuestros Web Components será:
 
 ```
 .
-├── components
-│   ├── my-component-1
-│   ├── ├── my-component-1.js
-│   ├── ├── my-component-1.css
-│   ├── ├── components
-│   ├── ├── ├── my-component-1-1
-│   ├── ├── ├── ├── my-component-1-1.js
-│   ├── ├── ├── ├── my-component-1-1.css
-│   ├── ├── └── my-component-1-n
-│   ├── my-component-2
+├── src
+│   ├── components
+│   │   ├── module1
+│   |   │   ├── components
+│   │   │   ├── ├── my-component-1.js
+│   │   │   ├── ├── my-component-1.css
+│   │   │   ├── ├── components
+│   │   │   ├── ├── ├── my-component-1-1
+│   │   │   ├── ├── ├── ├── my-component-1-1.js
+│   │   │   ├── ├── ├── ├── my-component-1-1.css
+│   │   │   ├── ├── └── my-component-1-n
+│   │   ├── module2
+│   │   ├── ...
+│   │   └── module-n
+│   ├── css
+│   │   ├── global.css
+│   │   └── reset.css
+│   ├── img
+│   │   ├── logo
+│   │   └── ...
+│   ├── page1
+│   │  └── index.html
+│   ├── page2
+│   │   └── index.html
 │   ├── ...
-│   └── my-component-n
-└── global.css
+│   │   └── index.html
+│   │   page-n
+│   └── └── index.html
 └── main.js
 └── index.html
 ```
@@ -31,8 +46,10 @@ La estructura de carpetas para nuestros Web Components será:
 
 2. Para arrancar el proyecto usaremos el comando `npm run dev`
 
-3. Tu proyecto se ha arrancado en la url: `http://localhost:6886`
+3. Tu proyecto se ha arrancado en la url: `http://localhost:5885`
 
-## Git team work
+## Deploy
 
-* [Work as a team](https://www.linkedin.com/feed/update/urn:li:activity:7297547140006895617/)
+Tenemos la aplicación desplegada en Github Pages. Puedes acceder a ella entrando en la siguiente dirección:
+
+* [https://acnagrellos.github.io/WebComponents](https://acnagrellos.github.io/WebComponents)

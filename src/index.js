@@ -1,1 +1,0 @@
-import "./components/burguer-component/burguer-component.js";
